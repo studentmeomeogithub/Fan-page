@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 75vh;
+    width: 23vw; /* Adjust as needed */
+    background-color: #00000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.login-header {
+    flex: 1;
+    background-image: url('./Living\ Room.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.top-btn {
+    padding: 10px;
+    background-color: #bfc747;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.login-body {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #3e3e3e;
+}
+
+h5 {
+    color: #bfc747;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.number-btn {
+    padding: 10px;
+    background-color: #260057;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.power-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.power-section span {
+    color: #bfc747;
+    font-size: 1.2rem;
+}
+
+.power-btn {
+    padding: 10px;
+    background-color: #1a2525;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.power-btn:hover {
+    background-color: #260057;
+}
